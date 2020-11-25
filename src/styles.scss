@@ -2,7 +2,12 @@
     height: 100vh;
     background:linear-gradient(#255866, #1A1A1A);
     color: #F2F2F2;
-    font-family: ivypresto-display, serif;
+    font-family: ivypresto, serif;
     font-style: normal;
-    font-weight: 600;
+    // font-weight: 600;
+}
+
+@font-face {
+    font-family: ivypresto;
+    src : url('./assets/fonts/IvyPresto\ Headline\ Semi\ Bold.otf')
 }

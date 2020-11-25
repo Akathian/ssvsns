@@ -1,12 +1,12 @@
 .title  {
     font-size: min(12vw,125px);
     text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-    font-weight: 550;
+    // font-weight: 550;
 }
 
 .number {
     font-size: min(6vw,50px);
-    font-weight: 500;
+    // font-weight: 500;
 
 }
 
@@ -20,7 +20,9 @@
 
 .links {
     font-size: min(3vw, 30px);
+
 }
+
 
 #vsns {
     transform: translateY(-2px);
@@ -29,7 +31,7 @@
 a{ 
     color:inherit
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:499px) {
     .timeGroup {
         padding-right: 0em !important;
     }
@@ -38,3 +40,4 @@ a{
         height: 80vh;
     }
 }
+
