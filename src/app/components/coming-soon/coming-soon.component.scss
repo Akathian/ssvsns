@@ -11,7 +11,7 @@
 }
 
 .comingsoon {
-    height: 80vh;
+    height: 100vh;
 }
 .time {
     transform: translateY(-10px);
@@ -33,5 +33,8 @@ a{
     .timeGroup {
         padding-right: 0em !important;
     }
-
+    
+    .comingsoon {
+        height: 80vh;
+    }
 }
