@@ -1,9 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-
+import { trigger, transition, style, animate, query, stagger, keyframes } from '@angular/animations';
 @Component({
   selector: 'app-coming-soon',
   templateUrl: './coming-soon.component.html',
-  styleUrls: ['./coming-soon.component.scss']
+  styleUrls: ['./coming-soon.component.scss'],
+  animations: [
+    trigger('explainerAnim', [
+      transition('* => *', [
+        query('.anim', style({ opacity: 0, })),
+        query('.anim', stagger('0ms', [
+          animate('1000ms ease-out', style({ opacity: 1, })),
+        ]))
+      ])
+    ])
+  ]
 })
 export class ComingSoonComponent implements OnInit {
   countDownDate = new Date('Jan 20, 2021 00:00:00').getTime();
