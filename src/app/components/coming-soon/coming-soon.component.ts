@@ -16,7 +16,7 @@ import { trigger, transition, style, animate, query, stagger, keyframes } from '
   ]
 })
 export class ComingSoonComponent implements OnInit {
-  countDownDate = new Date('Jan 20, 2021 00:00:00').getTime();
+  countDownDate = new Date('Feb 28, 2021 00:00:00').getTime();
   constructor() { }
 
   ngOnInit() {
